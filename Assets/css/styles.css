@@ -4,8 +4,8 @@ nav {
 }
 
 a {
-    border: #2962ff solid 3px;
-    color: #2962ff;
+    border: #fe4542 solid 3px;
+    color: #fe4542;
     background-color: transparent;
     border-radius: 5px;
     padding: 10px 15px;
@@ -36,19 +36,19 @@ a.portfolio {
 }
 
 a.portfolio:hover {
-    color: #2962ff;
+    color: #fe4542;
     cursor: pointer;
 }
 
 a.hello {
-    color: #2962ff;
+    color: #fe4542;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
 
 }
 
 a.hello:hover {
-    background-color: #2962ff;
+    background-color: #fe4542;
     color: white;
     cursor: pointer;
 }
