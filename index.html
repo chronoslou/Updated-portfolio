@@ -7,86 +7,136 @@
     <title>Louis Falla Engineering Portfolio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" type="text/css" href="./Assets/styles.css">
+    <link rel="stylesheet" type="text/css" href="./Assets/css/styles.css">
 </head>
 <body>
-    <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="border-bottom: solid 1px #e0e0e0">
+        <div class="container">
+            <img src=Assets/appimages/logo.jpeg alt="lfLogo" class=lflogo style="height:80px;">
             <div class="d-flex justify-content-end">
-                <a class="nav-item portfolio" href=#portfolio>Portfolio</a>
                 <a class="nav-resumeLinks" target="_blank" href="./Assets/Louis Falla-Resume-2021.pdf">Resume</a>
-                <a class="nav-item contactInfo" href=#contactme>Contact</a>
+                <a class="nav-item hello" href="#contactme">Contact</a>
             </div>
-        </nav>
-        <section class="welcome my-auto align-self-center">
-            <img src=Assets/appimages/profilepic.jpeg alt="Louis Falla" class="img-thumbnail">
-            <h1 class="devName">Louis Falla, MBA, PMC</h1>
-            <h2 class="currentTitle">Technical Project Manager | Full Stack Developer</h2>
-        </section>
+        </div>
+    </nav>
+    <section class="welcome my-auto align-self-center" style="text-align: center; padding-top:20px">
+        <img src="Assets/appimages/profilepic.jpeg" alt="Louis Falla" class="img-thumbnail">
+        <h2 class="devName">Louis Falla, MBA, PMC</h2>
+        <h3 class="currentTitle">Technical Project Manager | Full Stack Developer</h>
+    </section>
     </header>
     <article class="pb-5 aboutMe">
         <div class="container">
             <section>
-                <div>
-                    <div class="d-flex justify-content-center" style="margin-bottom: 25px; flex-direction: column">
-                        <p>Proactive, persevering, detail and result-oriented professional with over 10 years of proven leadership and teamwork skills. Effective communicator with the ability to coordinate cross-functional teams efficiently to accomplish challenging objectives and meet critical deadlines in a fast-paced environment. Proven record to consistently exceed goals and an excellent ability to learn quickly,strong analytical, customer building relationship, conflict resolution and multi-tasking skills. BBA in Marketing, MBA in Management and Post Masters' degree in International Business with substantial experience in Direct Marketing, CRM, Operations, International Import and Export management, Social Media and Management. Bilingual English and Spanish.</p>
-                        <p>
-                            <h4>Skills</h4>
-                            <p>Technical: Proficiency in Microsoft Excel, Word, PowerPoint, Outlook, Project, Mac OS, iWork Pages, Numbers, Keynote, PeopleSoft, implementations, Google Analytics, Adobe Photoshop, Agile, Waterfall & Kanban methodologies, QlikView, CyberSource, Confluence, JIRA,Zendesk, Hootsuite, Salesforce, Pentaho, Commerce Cloud, Shopify, Magento, knowledge of SQL Server, HTML, CSS and JavaScript.</p>
-                        </p>
-                    </div>
+                <div class="d-flex justify-content-center" style="margin-bottom: 25px; flex-direction: column">
+                    <br>
+                    <h5>About Me</h5>
+                    <p>Proactive, persevering, detail and result-oriented professional with over 10 years of proven leadership and teamwork skills. Effective communicator with the ability to coordinate cross-functional teams efficiently to accomplish challenging objectives and meet critical deadlines in a fast-paced environment. Proven record to consistently exceed goals and an excellent ability to learn quickly,strong analytical, customer building relationship, conflict resolution and multi-tasking skills. BBA in Marketing, MBA in Management and Post Masters' degree in International Business with substantial experience in Direct Marketing, CRM, Operations, International Import and Export management, Social Media and Management. Bilingual English and Spanish.</p>
+                    <p>
+                    <h5>Skills</h5>
+                    <p>Technical: Proficiency in Microsoft Excel, Word, PowerPoint, Outlook, Project, Mac OS, iWork Pages, Numbers, Keynote, PeopleSoft, implementations, Google Analytics, Adobe Photoshop, Agile, Waterfall & Kanban methodologies, QlikView, CyberSource, Confluence, JIRA,Zendesk, Hootsuite, Salesforce, Pentaho, Commerce Cloud, Shopify, Magento, knowledge of SQL Server, HTML, CSS and JavaScript.</p>
+                    </p>
                 </div>
             </section>
         </div>
+    </article>
     <article class="container">
+        <h2>Portfolio</h2>
         <!--Article Tag Hero image about the image-->
         <div class="mainapp"></div>
-        <figure><img class="hero" src="Assets/appimages/ballgame.jpeg" alt="ballgame app"></figure>
-            <table class="card-deck">
-                <!--first row-->
-                <tr>
-                    <th>
-                        <!--placeholder for image 3-->
-                        <!--title for image-->
-                        <div class="titleplaceholderblock"></div>
-                        <figure><img class="image3" src="Assets/appimages/planner.jpeg" alt="planner app"></figure>
-                    </th>
-                    <th>
-                        <!--placeholder for image 4-->
-                        <!--title for image-->
-                        <div class="titleplaceholderblock"></div>
-                        <figure><img class="image4" src="Assets/appimages/weatherdashboard.jpeg" alt="weaather app"></figure>
-                    </th>
-                </tr>
-                <tr>
-                    <th>
-                        <!--2nd row-->
-                        <!-- placeholder for image 5-->
-                        <div class="titleplaceholderblock"></div>
-                        <figure><img class="image5" src="Assets/appimages/codingquiz.jpeg" alt="code quiz app"></figure>
-                    </th>
-                    <th>
-                        <!--placeholder for image 6-->
-                        <!--title for image-->
-                        <div class="titleplaceholderblock"></div>
-                        <figure><img class="image6" src="Assets/appimages/passwordgenerator.jpeg" alt="password generator app"></figure>
-                    </th>
-                </tr>
-            </table>
-    </article>             
-    <footer class=container>
-        <div class=contactinfo>
-            <ul>
-                <li><a href="tel:9142824081">914-282-4081</a></li>
-                <li><a href="mailto:lfalla3892@gmail.com">Lfalla3892@gmail.com</a></li>
-                <li><a target="_blank" href="https://github.com/chronoslou">GitHub</a></li>
-                <li><a href="https://twitter.com/falla_lou?lang=en">Twitter</a></li>
-              <li><a href="https://music.apple.com/profile/lou3892">Apple Music</a></li>
+        <div class="card" style="width: 40rem;">
+            <img class="card-img-top" src="Assets/appimages/ballgame.jpeg" alt="ballgame app">
+            <div class="card-body">
+                <h5 class="card-title">Ballgame App</h5>
+                <p class="card-text">This is a sports app leveraging 2 APIs, the first being the NBA API which will retrieve game statistics for a team and the second API will retrieve the team's future games and ticket information. This will assist the user with getting their favorite NBA team's most updated stats and future games ticket information.</p>
+                <div class="btn-group" role="group">
+                    <a href="https://github.com/chronoslou/nba-game-locator" ctarget="_blank" class="btn btn-outline-primary"><i class="fab fa-github"></i></a>
+                    <a href="https://chronoslou.github.io/nba-game-locator/" target="_blank" class="btn btn-primary mr-0">Launch</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <table class="card-deck">
+            <!--first row-->
+            <tr>
+                <th>
+                    <!--placeholder for image 3-->
+                    <!--title for image-->
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="Assets/appimages/planner.jpeg" alt="planner app">
+                        <div class="card-body">
+                            <h5 class="card-title">Day Planner</h5>
+                            <p class="card-text">This is a JQuery powered calendar application that allows an employee to save important events for each hour of the day, it will run in browswer and will dynamically update HTML and CSS.</p>
+                            <div class="btn-group" role="group">
+                                <a href="https://github.com/chronoslou/HW5" target="_blank" class="btn btn-outline-primary"><i class="fab fa-github"></i></a>
+                                <a href="https://chronoslou.github.io/HW5/" target="_blank" class="btn btn-primary mr-0">Launch</a>
+                            </div>
+                        </div>
+                    </div>
+                </th>
+                <th>
+                    <!--placeholder for image 4-->
+                    <!--title for image-->
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="Assets/appimages/weatherdashboard.jpeg" alt="weatherdashboard app">
+                        <div class="card-body">
+                            <h5 class="card-title">Weather Dashboard</h5>
+                            <p class="card-text">This is a Weather APP leveraging the OpenWeather API to retrieve weather data for cities. This will assist travelers with weather related inquiries. This app can be used for multiple cities so that travelers can plan their trips accordingly.</p>
+                            <div class="btn-group" role="group">
+                                <a href="https://github.com/chronoslou/HW6" target="_blank" class="btn btn-outline-primary"><i class="fab fa-github"></i></a>
+                                <a href="https://chronoslou.github.io/HW06/" target="_blank" class="btn btn-primary mr-0">Launch</a>
+                            </div>
+                        </div>
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <!--2nd row-->
+                    <!-- placeholder for image 5-->
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="Assets/appimages/codingquiz.jpeg" alt="codingquiz app">
+                        <div class="card-body">
+                            <h5 class="card-title">Coding Quiz</h5>
+                            <p class="card-text">This program is a JavaScript (JS) based app that will quiz user on their knowledge of Javascript. This is a multiple choice timed quiz.</p>
+                            <div class="btn-group" role="group">
+                                <a href="https://github.com/chronoslou/HW4" target="_blank" class="btn btn-outline-primary"><i class="fab fa-github"></i></a>
+                                <a href="https://chronoslou.github.io/HW4/" target="_blank" class="btn btn-primary mr-0">Launch</a>
+                            </div>
+                        </div>
+                    </div>
+                </th>
+                <th>
+                    <!--placeholder for image 6-->
+                    <!--title for image-->
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="Assets/appimages/passwordgenerator.jpeg" alt="passwordgenerator app">
+                        <div class="card-body">
+                            <h5 class="card-title">Password Generator App</h5>
+                            <p class="card-text">This application JS generates random passwords based on a set list of criteria. </p>
+                            <div class="btn-group" role="group">
+                                <a href="https://github.com/chronoslou/HW3" target="_blank" class="btn btn-outline-primary"><i class="fab fa-github"></i></a>
+                                <a href="https://chronoslou.github.io/HW3/" target="_blank" class="btn btn-primary mr-0">Launch</a>
+                            </div>
+                        </div>
+                    </div>
+                </th>
+            </tr>
+        </table>
+    </article>   
+    <br>
+    <br>          
+    <footer class=container id=contactme>
+        <div class="contactinfo">
+            <ul class="d-flex justify-content-center">
+                <li><a  href="tel:9142824081"><i class="fas fa-phone"></i> 914-282-4081</a></li>
+                <li><a href="mailto:lfalla3892@gmail.com"><i class="fas fa-envelope-square"></i> Lfalla3892@gmail.com</a></li>
+                <li><a target="_blank" href="https://github.com/chronoslou"><i class="fab fa-github"></i> GitHub</a></li>
+                <li><a href="https://twitter.com/falla_lou?lang=en"><i class="fab fa-twitter"></i> Twitter</a></li>
+                <li><a href="https://music.apple.com/profile/lou3892"><i class="fab fa-itunes"></i> Apple Music</a></li>
             </ul>
         </div>
     </footer>

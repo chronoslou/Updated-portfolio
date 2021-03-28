@@ -1,0 +1,86 @@
+nav {
+    position: fixed;
+    top: 0;
+}
+
+a {
+    border: #2962ff solid 3px;
+    color: #2962ff;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.lfLogo {
+    border: none;
+    margin:10px 0;
+}
+
+img {
+    height: 35px;
+}
+
+span {
+    float: right;
+}
+
+a.portfolio {
+    border: none;
+    color: #3b414c;
+    padding: 10px 15px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+a.portfolio:hover {
+    color: #2962ff;
+    cursor: pointer;
+}
+
+a.hello {
+    color: #2962ff;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+
+}
+
+a.hello:hover {
+    background-color: #2962ff;
+    color: white;
+    cursor: pointer;
+}
+
+.card-img-top {
+    width: auto;
+    height: auto;
+}
+
+.img-thumbnail {
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+}
+
+article {
+    flex-direction: column;
+}
+
+li {
+    display: inline-block;
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+tbody {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
