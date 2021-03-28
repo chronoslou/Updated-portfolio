@@ -84,3 +84,26 @@ tbody {
     margin-bottom: 10px; /* Added */
 }
 
+.pb-5 {
+    background-color: #fe4542;
+}
+
+.d-flex p {
+    color: white;
+}
+
+.skills {
+    color: white;
+}
+
+.d-flex h5 {
+    color: white;
+}
+
+.devName {
+    padding-top: 40px;
+}
+
+.mainapp h2 {
+    margin-left: 45px;
+}
