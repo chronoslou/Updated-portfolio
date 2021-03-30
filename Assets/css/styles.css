@@ -107,3 +107,20 @@ tbody {
 .mainapp h2 {
     margin-left: 45px;
 }
+
+.btn-primary{
+   background-color: #fe4542;
+   border-color: #fe4542; 
+}
+
+.btn-outline-primary{
+    color:#fe4542;
+    border-color: #fe4542;
+}
+
+footer {
+    border: solid 3px;
+    background-color: transparent;
+    padding: 40px;
+    margin: 0 10px;
+}
